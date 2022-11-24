@@ -9,7 +9,7 @@ public class Conexion {
 
     // private static String url = "jdbc:mysql://127.0.0.1:3306/ejemplo";
     private static String url = "jdbc:mysql://db4free.net:3306/ejemplo";
-    private static String driverName = "com.mysql.jdbc.Driver"; // com.mysql.cj.jdbc.Driver
+    private static String driverName =  com.mysql.cj.jdbc.Driver; // "com.mysql.jdbc.Driver"; //
     private static String username = processBuilder.environment().get("USERDB");
     private static String password = processBuilder.environment().get("PASSDB");;
     // variable de conexion
